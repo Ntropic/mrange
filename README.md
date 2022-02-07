@@ -8,7 +8,7 @@ Import via
 ## Description
 mrange is used to replace nested range loops
 ### Input: 
-    n_s -> Tuple of integers
+    `n_s = (n_1, n_2, ..., n_m)` A tuple of integers
 ### Output: 
 Generator outputting `len(n_s)` values with every call, generating every combination of values in the intervals [0,1,...,n_s[i]-1]
 ### Use:
