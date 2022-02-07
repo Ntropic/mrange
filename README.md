@@ -1,0 +1,26 @@
+# mrange
+
+Install via `pip install mrange`
+
+Import via
+`from mrange import mrange`
+
+## Description
+mrange is used to replace nested range loops
+### Input: 
+    n_s -> Tuple of integers
+### Output: 
+Generator outputting `len(n_s)` values with every call, generating every combination of values in the intervals [0,1,...,n_s[i]-1]
+### Use:
+```
+for a, b, ..., m in mrange((n_a, n_b, ..., n_m)):
+    ...
+Replaces:
+for a in range(n_a):
+    for b in range(n_b):
+       ...
+           for m in range(n_m):
+               ...
+```
+## Authors: 
+By Michael Schilling, with the help of Francesco Preti
