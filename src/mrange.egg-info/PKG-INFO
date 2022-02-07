@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: mrange
-Version: 0.1
-Summary: Remove nested for i in range(n) loops to a single line
+Version: 0.2
+Summary: Reduce nested for i in range(n) loops to a single line
 Home-page: https://github.com/Ntropic
 Author: Michael Schilling
 Author-email: michael@ntropic.de
@@ -19,7 +19,7 @@ License-File: LICENSE
 Install via `pip install mrange`
 
 Import via
-`import mrange`
+`from mrange import mrange`
 
 ## Description
 mrange is used to replace nested range loops
@@ -40,9 +40,4 @@ for a in range(n_a):
 ```
 ## Authors: 
 By Michael Schilling, with the help of Francesco Preti
-
-
-Remove this
-Currently install via 
-pip install -e C:\Users\schilling\OneDrive\Desktop\PhD\Research\Simulations\Python\mrange
 
