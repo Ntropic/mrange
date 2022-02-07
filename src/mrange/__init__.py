@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-from .mrange import *
+from mrange.mrange import *
