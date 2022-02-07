@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from numba import njit
 
-@njit(fastmath=True, nogil=True, cache = True)
+@njit(fastmath=True, nogil=True)# , cache = True)
 def mrange(n_s):
     # mrange is used to replace nested range loops
     # Input: n_s -> Tuple of integers
