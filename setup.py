@@ -10,7 +10,6 @@ setup(
   url = 'https://github.com/Ntropic',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/Ntropic/mrange/archive/refs/tags/v0.3.tar.gz',    # I explain this later on
   keywords = ['nested', 'loops'],   # Keywords that define your package best
-  install_requires=[            # I get to this in a second
-          'numba',
+  install_requires=[ 'numba',
       ],
 )

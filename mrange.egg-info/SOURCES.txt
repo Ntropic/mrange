@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mrange/__init__.py
+mrange/mrange.py
+mrange.egg-info/PKG-INFO
+mrange.egg-info/SOURCES.txt
+mrange.egg-info/dependency_links.txt
+mrange.egg-info/requires.txt
+mrange.egg-info/top_level.txt

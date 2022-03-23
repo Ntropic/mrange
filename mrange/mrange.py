@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from numba import njit
 
+
 @njit(fastmath=True, nogil=True)# , cache = True)
 def mrange(n_s):
     # mrange is used to replace nested range loops
@@ -17,8 +18,9 @@ def mrange(n_s):
     #                ...
     # By Michael Schilling, with the help of Francesco Preti
     if len(n_s) > 1:
+        sub_n_s = n_s[1:]
         for i in range(n_s[0]):
-            for x in mrange(n_s[1:]):
+            for x in mrange(sub_n_s):
                 yield i, *x
     else:
         for i in range(n_s[0]):
