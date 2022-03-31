@@ -11,7 +11,7 @@ Import via
 mrange is used to remove nested range loops
 ### Input: 
 `n_s = (n_1, n_2, ..., n_m)` 
-Tuple of integers
+Tuple of integers (or array when using `mrange_array`)
 ### Output: 
 Generator outputting `len(n_s)` values with every call, generating every combination of values in the intervals `[0,1,...,n_s[i]-1]`
 ### Use:
