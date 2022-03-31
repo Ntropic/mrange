@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: mrange
-Version: 0.7
+Version: 0.8
 Summary: mrange is used to remove nested range loops
-Home-page: https://github.com/Ntropic/mrange/archive/refs/tags/v0.7.tar.gz
+Home-page: https://github.com/Ntropic/mrange/archive/refs/tags/v0.8.tar.gz
 Author: Michael Schilling
 Author-email: michael@ntropic.de
 License: UNKNOWN
@@ -16,7 +16,9 @@ License-File: LICENSE
 
 # mrange
 
-Install via `pip install mrange`
+Install via 
+`conda install numba`
+`pip install mrange`
 
 Import via
 `from mrange import mrange`
