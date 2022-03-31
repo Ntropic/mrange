@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: mrange
-Version: 0.4
+Version: 0.5
 Summary: Reduce nested for i in range(n) loops to a single line
 Home-page: https://github.com/Ntropic
 Download-URL: https://github.com/Ntropic/mrange/archive/refs/tags/v0.3.tar.gz
