@@ -8,10 +8,10 @@ setuptools.setup(
     version = "0.7",
     author = "Michael Schilling",
     author_email = "michael@ntropic.de",
-    description  = "test",
+    description  = "mrange is used to remove nested range loops",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "https://github.com/Ntropic/mrangearchive/refs/tags/v0.7.tar.gz",
+    url = "https://github.com/Ntropic/mrange/archive/refs/tags/v0.7.tar.gz",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -19,5 +19,6 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
+    install_requires=[], #["numba"],
     python_requires=">=3.6",
 )

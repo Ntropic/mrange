@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: mrange
 Version: 0.7
-Summary: test
-Home-page: https://github.com/Ntropic/mrangearchive/refs/tags/v0.7.tar.gz
+Summary: mrange is used to remove nested range loops
+Home-page: https://github.com/Ntropic/mrange/archive/refs/tags/v0.7.tar.gz
 Author: Michael Schilling
 Author-email: michael@ntropic.de
 License: UNKNOWN

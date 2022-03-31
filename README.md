@@ -1,6 +1,8 @@
 # mrange
 
-Install via `pip install mrange`
+Install via 
+`conda install numba`
+`pip install mrange`
 
 Import via
 `from mrange import mrange`
